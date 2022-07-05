@@ -26,7 +26,7 @@ img {
 }
 
 section {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
 }
 
 .btn {
@@ -34,6 +34,7 @@ section {
     text-transform: uppercase;
     border: 2px solid transparent;
     background-color: tomato;border-radius: 20px;
+    color: cornsilk;
 }
 
 
@@ -84,4 +85,32 @@ section {
 
 #dream .left-side {
     padding-right: 2%;
+}
+
+#experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.experience {
+    width: 48%;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.left-box {
+    border-left: 4px solid green;
+}
+
+.right-box {
+    border-left: 4px solid blue;
+}
+.experience h1{
+    font-size: 40px;
+}
+.experience h3 {
+    color: tomato;
 }
