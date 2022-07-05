@@ -114,3 +114,14 @@ section {
 .experience h3 {
     color: tomato;
 }
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer span {
+    color: tomato;
+
+}
