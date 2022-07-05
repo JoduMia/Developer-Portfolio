@@ -21,6 +21,13 @@ p {
     line-height: 1.3;
     margin-bottom: 40px;
 }
+img {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 150px;
+}
 
 .btn {
     padding: 10px 30px;
@@ -50,7 +57,7 @@ p {
     width: 50%;
 }
 
-.left-side {
+#welcome .left-side {
     padding-right: 2%;
     margin-top: 60px;
 }
@@ -64,6 +71,17 @@ p {
 .right-side {
     padding-left: 2%;
 }
-.right-side img {
-    width: 100%;
+
+#dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#dream .right-side {
+    margin-top: 60px;
+}
+
+#dream .left-side {
+    padding-right: 2%;
 }
